@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Detect MSI X370 GAMING PLUS with the ALC892 codec that needs the jack-hotplug fix.
+# omarchy:summary=Detect the MSI X370 GAMING PLUS with the Realtek ALC892 codec that needs the jack-hotplug fix.
 
 [[ $(cat /sys/class/dmi/id/board_vendor 2>/dev/null) == "MSI" ]] || exit 1
 [[ $(cat /sys/class/dmi/id/board_name 2>/dev/null) == "X370 GAMING PLUS (MS-7A33)" ]] || exit 1
